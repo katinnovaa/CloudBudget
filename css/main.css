@@ -161,6 +161,12 @@ color: rgba(124, 99, 187, 0.8);
   list-style-type: none;
   display: inline-block;
 }
+.appstore{
+  text-transform: uppercase;
+  color: white;
+  list-style-type: none;
+  display: inline-block;
+}
 .main-nav-link{
   color: white;
   text-decoration: none;
@@ -228,6 +234,9 @@ color: rgba(255, 127, 23, 0.8);
   margin: 0;
   padding-top: 140px;
   padding-bottom: 40px;
+}
+.appstore{
+
 }
 .pause{
   width: 18px;
