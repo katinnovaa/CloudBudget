@@ -8,6 +8,7 @@
   <title>CloudBudget</title>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="./icomoon/style.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -77,8 +78,9 @@
           <div class="video-wrapper">
             <video class="video" src="https://febasic.github.io/media/video.mp4" loop muted
               poster="./images/Video_bg.jpg"></video>
-            <button class="play-button"><img src="/images/pause.svg" alt="Pause for a video"
-                aria-label="Click pause for a video"></button>
+            <button class="play-button" aria-label="Click pause for a video">
+              <span class="icon-pause" aria-hidden="true"></span>
+            </button>
           </div>
         </div>
       </div>
@@ -120,33 +122,33 @@
     <div class="container">
       <ul class="row main-list">
         <li class="col col-3 text-center">
-          <span class="number">01</span>
+          <span class="number">01</span><br>
           <div class="tech-ico-wrap">
-            <img src="./images/frame1.svg" alt="cloude storage">
+            <span class="icon-frame1" aria-hidden="true"></span>
           </div>
           <p class="subtitle1 d-block">Cloud Storage</p>
           <p class="text1"> Access your account from anywhere in the world on any device</p>
         </li>
         <li class="col col-3 text-center">
-          <span class="number">02</span>
+          <span class="number">02</span><br>
           <div class="tech-ico-wrap">
-            <img src="./images/frame2.svg" alt="Secure">
+            <span class="icon-frame2" aria-hidden="true"></span>
           </div>
           <p class="subtitle1 d-block">Secure</p>
           <p class="text1">All your information is stored on secure cloud servers</p>
         </li>
         <li class="col col-3 text-center">
-          <span class="number">03</span>
+          <span class="number">03</span><br>
           <div class="tech-ico-wrap">
-            <img src="./images/frame3.svg" alt="cloude storage">
+            <span class="icon-frame3" aria-hidden="true"></span>
           </div>
           <p class="subtitle1 d-block"> PDF Download </p>
           <p class="text1">Download any of your reports in PDF format</p>
         </li>
         <li class="col col-3 text-center">
-          <span class="number">04</span>
+          <span class="number">04</span><br>
           <div class="tech-ico-wrap">
-            <img src="./images/frame4.svg" alt="cloude storage">
+            <span class="icon-frame4" aria-hidden="true"></span>
           </div>
           <p class="subtitle1 d-block">CSV Download</p>
           <p class="text1">All your information is stored on secure cloud servers</p>
@@ -166,12 +168,15 @@
               started!
             </p>
             <ul>
-              <li class="appstore"><a href="/"><img class="app" src="./images/app1.svg" alt="playstore"
-                    aria-label="Click the icon playstore"></a></li>
-              <li class="appstore"><a href="/"><img class="app" src="./images/app2.svg" alt="appstore"
-                    aria-label="Click the icon appstore"></a></li>
-              <li class="appstore"><a href="/"><img class="app app1" src="./images/app3.svg" alt="windows"
-                    aria-label="Click the icon windows"></a></li>
+              <li class="appstore"><a href="/" class="app-link" aria-label="link playstore">
+                  <span class="icon-playstore" aria-hidden="true"></span></a>
+              </li>
+              <li class="appstore"><a href="/" class="app-link" aria-label="link appstore">
+                  <span class="icon-appstore" aria-hidden="true"></span></a>
+              </li>
+              <li class="appstore"><a href="/" class="app-link" aria-label="link windows store">
+                  <span class="icon-windows_store app1" aria-hidden="true"></span></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -222,7 +227,9 @@
                   <option value="4">Terms & Conditions</option>
                   <option value="5">Privecy</option>
                 </select>
-                <img src="/images/strelka.svg" alt="Сursor for select" class="cursor">
+                <div class="cursor">
+                  <span class="icon-strelka" aria-hidden="true"></span>
+                </div>
               </div>
               <div class="col col-3">
                 <button class="submit" type="submit">SUBMIT NOW</button>
@@ -261,12 +268,23 @@
                 844-721-7120</a></li>
           </ul>
           <ul>
-            <li class="twitter"><a href="/"><img class="footer_text1" src="./images/facebook.svg" alt="facebook"
-                  aria-label="Click to find us on facebook"></a></li>
-            <li class="twitter"><a href="/"><img class="footer_text1" src="./images/linkedin.svg" alt="linkedin"
-                  aria-label="Click to find us on linkedin"></a></li>
-            <li class="twitter"><a href="/"><img class="footer_text1" src="./images/twitter.svg" alt="twitter"
-                  aria-label="Click to find us on twitter"></a></li>
+            <li class="twitter">
+              <a href="/" class="facebook_us" aria-label="Click to find us on facebook">
+                <span class="icon-facebook" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li class="twitter">
+              <a href="/" class="facebook_us" aria-label="Click to find us on linkedin">
+                <span class="icon-linkedin" aria-hidden="true">
+                </span>
+              </a>
+            </li>
+            <li class="twitter">
+              <a href="/" class="facebook_us" aria-label="Click to find us on twitter">
+                <span class="icon-twitter" aria-hidden="true">
+                </span>
+              </a>
+            </li>
           </ul>
         </div>
         <div class="col col-3">
